@@ -1,0 +1,29 @@
+main:
+  - title: '<span class="glyphicon glyphicon-home"></span> Home'
+    type: URL # URL or DD
+    url: /
+  - title: "About Us"
+    url:  /about-us/
+    type: URL # URL or DD
+  - title: 'Our Work'
+    type: DD # URL or DD
+    url: ourwork
+  - title: 'Join Us'
+    url: /join-us/
+    type: URL # URL or DD
+  - title: 'Contact Us'
+    url: /contact-us/
+    type: URL # URL or DD
+
+ourwork:
+  - title: Research
+    type: URL
+    url: /research/
+  - title: Workshops
+    type: DD
+    url: workshops
+
+workshops:
+  - title: Workshop1
+    type: URL
+    url: DD

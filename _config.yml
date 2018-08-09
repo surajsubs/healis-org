@@ -1,0 +1,31 @@
+#
+#
+#
+name: ""
+# Site Settings
+locale: "en-US"
+# Keep original, do not replace
+title: "Healis.org"
+title_separator: "-"
+name: "Healis"
+description: "Healis.org"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+
+
+analytics:
+  provider: google # false (default), "google", "other"
+  google:
+    tracking_id: UA-123647003-1
+    
+# Conversion
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+lang: en

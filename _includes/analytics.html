@@ -1,0 +1,10 @@
+{% if site.analytics.provider and page.analytics != false %}
+
+{% case site.analytics.provider %}
+{% when "google" %}
+  {% include /analytics/google.html %}
+{% when "other" %}
+  {% include /analytics/other.html %}
+{% endcase %}
+
+{% endif %}
