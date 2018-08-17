@@ -1,8 +1,5 @@
 ---
 main:
-- title: Collaborators
-  type: URL
-  url: "/collab/"
 - title: <span class="glyphicon glyphicon-home"></span> Home
   type: URL
   url: "/"
@@ -12,6 +9,9 @@ main:
 - title: Our Work
   type: DD
   url: ourwork
+- title: Collaborators
+  type: URL
+  url: "/collab/"
 - title: Join Us
   url: "/join-us/"
   type: URL
